@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+ width: 100%;
+ height: 70px;
+ background: #724d3391;
+ display: flex;
+ justify-content: space-around;
+ align-items: flex-start;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+    margin: 2em;
+}
+.menu{
+    width: 450px;
+    height: 55px;
+}
+.menu li{
+    list-style: none;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.mine_menu {
+    width: 450px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li:hover {
+    color: rgba(223, 178, 30, 0.678);
+    border-bottom: dashed 1.5px rgb(233, 220, 220);
+    cursor:context-menu;
+    font-size: 18px;
+    border-color: rgba(250, 4, 4, 0.623);
+}
+
+
+ul {
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-padding-start: 40px;
+            padding-inline-start: 40px;
+}
+.text {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec2 {
+    width: 100%;
+    min-height: 300px;
+    background-image: url(images/shokolat1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+}
+section {
+    width: 100%;
+    min-height: 340px;
+    background-color: rgb(194, 130, 57);
+}
+.text {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2 {
+    width: 280px;
+    height: 100px;
+}
+.text h1, h3, p {
+    text-align: center;
+    color: rgb(247, 244, 240);
+    font-size: 30px;
+}
+
+  
